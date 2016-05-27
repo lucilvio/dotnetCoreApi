@@ -49,7 +49,7 @@ namespace ConsoleApplication
         
         public void Configure(IApplicationBuilder app, IHostingEnvironment env) {
             app.UseDeveloperExceptionPage();
-            
+            app.UseDirectoryBrowser();
             app.UseMvc();
         }
     }
